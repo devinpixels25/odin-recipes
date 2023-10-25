@@ -23,21 +23,25 @@
 
 .center-me {
     text-align: center;
+    padding: 25px;
+    border-style: solid;
+    border-width: 25px;
 }
 
 .image-center {
+    height: 425px;
+    width: auto;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 25%;
+    margin: auto;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: purple;
 }
 
 .howto {
     background-color: deepskyblue;
     color: white;
-    
-
-
 }
 
 body {
@@ -47,3 +51,23 @@ body {
 p {
     font-family: monospace, sans-serif, Arial;
 }
+
+h1 {
+    text-align: center;
+    color: white;
+    margin: 25px;
+
+}
+
+.card {
+    width: auto;
+    border-width: 4px;
+    background-color: rgba(0, 191, 255, 0.836);
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+    border-color: purple;
+}
+
